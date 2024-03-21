@@ -1,6 +1,6 @@
 <?php ob_start(); session_start(); if (!defined("INI_ARRAY")) { define("INI_ARRAY", parse_ini_file('../../local/hub/hub.ini')); }
 
-# projectss_list.php
+# projects_list.php
 # list page for the projects asset
 # written by Andy Wood July 2017 
 
