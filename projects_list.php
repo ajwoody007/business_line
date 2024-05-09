@@ -103,7 +103,7 @@
                                 $budget = $rowProjects['project_budget'];
                                 $totalBudget = $totalBudget + $budget;
                                 
-                                // if a planned completion date is in the past and the project is not deployed, completed or cancelled, the whole row should have red text
+                                // if a planned completion date is in the past and the project is not deployed, cancelled or completed, the whole row should have red text
                                 
                                 date_default_timezone_set("Europe/London");
                                 $datToday = strtotime(Date('Y-m-d'));
