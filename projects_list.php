@@ -110,7 +110,7 @@
                                 $datDueByRaw = strtotime($due_by);
                                 $datDueBy = date('d/m/Y',$datDueByRaw);
                                 
-                                if ($datToday > $datDueByRaw && $current_phase != 'Deployed' && $current_phase != 'Cancelled') {
+                                if ($datToday > $datDueByRaw && $current_phase != 'Deployed' && $current_phase != 'Cancelled' && $current_phase != 'Completed') {
                                     $rowText = "style='color:#FF0000;'";
                                 } else {
                                     $rowText = '';
